@@ -107,7 +107,7 @@ Make sure to update your username and password first.
 
 # Test the UI without any access to Orange M2M API
 This project contains a sample of SIM that would be return by the API.
-This sample is available in the folder ```/public/api/devices.json```.
+This sample is available in the file [devices.json](./public/api/devices.json).
 To test it, uncomment this line
   ```js
   $http.get("/api/devices.json").success(function (data) {
