@@ -1,0 +1,17 @@
+{
+  "name": "orange-m2m",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Lionel Mace <lionel.mace@fr.ibm.com>"
+  ],
+  "license": "Apache-2.0",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.8",
+    "bootstrap": "~3.3.6",
+    "angular-ui-router": "~0.2.15"
+  }
+}

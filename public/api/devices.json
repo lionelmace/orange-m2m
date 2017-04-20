@@ -1,0 +1,411 @@
+[
+  {
+    "customerEnvironmentIdentifier": "50000031",
+    "sim": {
+      "serialNumber": "2310300471761",
+      "puk1": "52392382",
+      "puk2": "26594397",
+      "imei": "359757020803430",
+      "status": "ACTIVATED",
+      "lastStatusRefreshDate": "2015-01-31T12:09:57+01:00",
+      "lastStatusChangeDate": "2015-01-31T12:09:57+01:00"
+    },
+    "subscription": {
+      "identifier": "34208489",
+      "description": {
+        "value": "IMC 2 Mb data monthly bundle",
+        "service": [
+"Orange.m2m APN",
+"multimedia content filtering ",
+"2 Mb GPRS bundle",
+"orange.m2m.spec APN          ",
+"International mode           "
+]
+      },
+      "creationDate": "2013-08-28T00:00:00+02:00",
+      "connectionDate": "2013-08-28T00:00:00+02:00",
+      "msisdnData": {
+        "cc": "33",
+        "sn": "631972662"
+      }
+    },
+    "device": {
+      "contact": "",
+      "communicationModule": "",
+      "deviceHolder": "Philippe",
+      "updateDate": "2016-01-13T16:54:35+01:00"
+    },
+    "machine": {
+      "updateDate": "2016-01-13T16:54:35+01:00"
+    },
+    "customerIdentifier": {
+      "type": "SIREN",
+      "identifier": "428706097"
+    }
+},
+  {
+    "customerEnvironmentIdentifier": "50000031",
+    "sim": {
+      "serialNumber": "2310300471779",
+      "puk1": "66820301",
+      "puk2": "32438474",
+      "status": "ACTIVATED",
+      "lastStatusRefreshDate": "2015-01-31T12:09:57+01:00",
+      "lastStatusChangeDate": "2015-01-31T12:09:57+01:00"
+    },
+    "subscription": {
+      "identifier": "34208490",
+      "description": {
+        "value": "IMC 5 Mb data monthly bundle",
+        "service": [
+"multimedia content filtering ",
+"International mode           ",
+"5 Mb GPRS bundle",
+"orange.m2m.spec APN          ",
+"Orange.m2m APN"
+]
+      },
+      "creationDate": "2013-08-29T00:00:00+02:00",
+      "connectionDate": "2013-09-28T00:00:00+02:00",
+      "msisdnData": {
+        "cc": "33",
+        "sn": "607735954"
+      }
+    },
+    "customerIdentifier": {
+      "type": "SIREN",
+      "identifier": "428706097"
+    }
+},
+  {
+    "customerEnvironmentIdentifier": "50000031",
+    "sim": {
+      "serialNumber": "2320300295664",
+      "puk1": "17923559",
+      "puk2": "69354513",
+      "imei": "351879013001120",
+      "status": "ACTIVATED",
+      "lastStatusRefreshDate": "2015-01-31T12:09:57+01:00",
+      "lastStatusChangeDate": "2015-01-31T12:09:57+01:00"
+    },
+    "subscription": {
+      "identifier": "34208685",
+      "description": {
+        "value": "IMC pay as you go voice",
+        "user": "B. LEVY / P. DEPRETZ",
+        "userRef": "Prêt pour tests SDK à la demande d'OLPS",
+        "service": [
+"multimedia content filtering ",
+"International mode           ",
+"Orange.m2m APN",
+"orange.m2m.spec APN          "
+]
+      },
+      "creationDate": "2013-11-22T00:00:00+01:00",
+      "connectionDate": "2013-12-02T00:00:00+01:00",
+      "msisdnVoice": {
+        "cc": "33",
+        "sn": "789433025"
+      }
+    },
+    "device": {
+      "uniqueIdentifier": "MyPHPdeviceIdentifier2",
+      "serialNumber": "MyPHPdeviceSerialNumber2",
+      "contact": "",
+      "communicationModule": {
+        "brand": "PHP TM",
+        "model": "PHP Model"
+      },
+      "deviceLocation": "MyPHPdeviceLocation",
+      "category": "MyPHPdeviceCategory",
+      "description": "MyPHPdeviceDescription",
+      "address": "MyPHPdeviceAddress",
+      "updateDate": "2015-02-15T21:56:55+01:00"
+    },
+    "machine": {
+      "serialNumber": "MyPHPmachineSerialNumber2",
+      "name": "MyPHPmachineName",
+      "description": "MyPHPmachineDescription",
+      "updateDate": "2015-02-15T21:56:55+01:00"
+    },
+    "customerIdentifier": {
+      "type": "SIREN",
+      "identifier": "428706097"
+    }
+},
+  {
+    "customerEnvironmentIdentifier": "50000031",
+    "sim": {
+      "serialNumber": "2413600000023",
+      "puk1": "84645063",
+      "puk2": "97351459",
+      "imei": "353816052745124",
+      "status": "ACTIVATED",
+      "lastStatusRefreshDate": "2015-11-18T18:08:20+01:00",
+      "lastStatusChangeDate": "2015-01-31T12:09:57+01:00"
+    },
+    "subscription": {
+      "identifier": "34330274",
+      "description": {
+        "value": "IMC pay as you go data",
+        "service": [
+"Orange.m2m APN",
+"orange.m2m.spec APN          ",
+"multimedia content filtering ",
+"International mode           "
+]
+      },
+      "creationDate": "2014-03-12T00:00:00+01:00",
+      "connectionDate": "2014-03-14T00:00:00+01:00",
+      "msisdnData": {
+        "cc": "33",
+        "sn": "680176750"
+      }
+    },
+    "device": {
+      "uniqueIdentifier": "OAB Test IAE AaS ",
+      "contact": {
+        "name": "Damien Geranton",
+        "email": "damien.geranton@orange.com"
+      },
+      "communicationModule": "",
+      "updateDate": "2015-05-05T23:39:45+02:00"
+    },
+    "machine": {
+      "updateDate": "2015-05-05T23:39:45+02:00"
+    },
+    "customerIdentifier": {
+      "type": "SIREN",
+      "identifier": "428706097"
+    }
+},
+  {
+    "customerEnvironmentIdentifier": "50000031",
+    "sim": {
+      "serialNumber": "2413600004488",
+      "puk1": "68171868",
+      "puk2": "37390250",
+      "imei": "352421050777764",
+      "status": "ACTIVATED",
+      "lastStatusRefreshDate": "2015-09-16T14:11:12+02:00",
+      "lastStatusChangeDate": "2015-09-16T14:11:12+02:00"
+    },
+    "subscription": {
+      "identifier": "34330282",
+      "description": {
+        "value": "IMC pay as you go voice",
+        "user": "",
+        "userRef": "",
+        "service": [
+"multimedia content filtering ",
+"International mode           ",
+"orange.m2m.spec APN          "
+]
+      },
+      "creationDate": "2014-03-14T00:00:00+01:00",
+      "connectionDate": "2014-03-14T00:00:00+01:00",
+      "msisdnVoice": {
+        "cc": "33",
+        "sn": "676174050"
+      }
+    },
+    "device": {
+      "contact": {
+        "name": "Sorin OANCEA",
+        "email": "sorin.oancea@orange.com",
+        "phone": "0040744448776"
+      },
+      "communicationModule": "",
+      "deviceLocation": "Romania",
+      "deviceHolder": "OLPS Romania",
+      "updateDate": "2015-09-11T11:08:41+02:00"
+    },
+    "machine": {
+      "updateDate": "2015-09-11T11:08:41+02:00"
+    },
+    "customerIdentifier": {
+      "type": "SIREN",
+      "identifier": "428706097"
+    }
+},
+  {
+    "customerEnvironmentIdentifier": "50000031",
+    "sim": {
+      "serialNumber": "2413600004371",
+      "puk1": "11216389",
+      "puk2": "72296487",
+      "status": "SUSPENDED",
+      "suspensionReason": "1000",
+      "lastStatusRefreshDate": "2015-01-31T16:24:15+01:00",
+      "lastStatusChangeDate": "2015-01-31T16:24:02+01:00"
+    },
+    "subscription": {
+      "identifier": "34330577",
+      "description": {
+        "value": "IMC 2 Mb data monthly bundle",
+        "user": "VCO (PO STS / MLM)  OLPS M2M",
+        "userRef": "VCO (PO STS / MLM)  OLPS M2M",
+        "service": [
+"orange.m2m.spec APN          ",
+"International mode           ",
+"2 Mb GPRS bundle",
+"multimedia content filtering "
+]
+      },
+      "creationDate": "2014-04-08T00:00:00+02:00",
+      "connectionDate": "2014-04-08T00:00:00+02:00",
+      "msisdnData": {
+        "cc": "33",
+        "sn": "676626007"
+      }
+    },
+    "customerIdentifier": {
+      "type": "SIREN",
+      "identifier": "428706097"
+    }
+},
+  {
+    "customerEnvironmentIdentifier": "50000031",
+    "sim": {
+      "serialNumber": "2413600004355",
+      "puk1": "54231316",
+      "puk2": "71359283",
+      "status": "ACTIVATED",
+      "lastStatusRefreshDate": "2015-01-31T12:09:57+01:00",
+      "lastStatusChangeDate": "2015-01-31T12:09:57+01:00"
+    },
+    "subscription": {
+      "identifier": "34330578",
+      "description": {
+        "value": "IMC 2 Mb data monthly bundle",
+        "user": "VCO (PO STS / MLM)  OLPS M2",
+        "userRef": "VCO (PO STS / MLM)  OLPS M2",
+        "service": [
+"multimedia content filtering ",
+"2 Mb GPRS bundle",
+"orange.m2m.spec APN          ",
+"International mode           "
+]
+      },
+      "creationDate": "2014-04-08T00:00:00+02:00",
+      "connectionDate": "2014-04-08T00:00:00+02:00",
+      "msisdnData": {
+        "cc": "33",
+        "sn": "676625968"
+      }
+    },
+    "customerIdentifier": {
+      "type": "SIREN",
+      "identifier": "428706097"
+    }
+},
+  {
+    "customerEnvironmentIdentifier": "50000031",
+    "sim": {
+      "serialNumber": "2413600004348",
+      "puk1": "38512325",
+      "puk2": "62273796",
+      "status": "ACTIVATED",
+      "lastStatusRefreshDate": "2015-01-31T12:09:57+01:00",
+      "lastStatusChangeDate": "2015-01-31T12:09:57+01:00"
+    },
+    "subscription": {
+      "identifier": "34330579",
+      "description": {
+        "value": "IMC 2 Mb data monthly bundle",
+        "user": "VCO (PO STS / MLM)  OLPS M2",
+        "userRef": "VCO (PO STS / MLM)  OLPS M2",
+        "service": [
+"orange.m2m.spec APN          ",
+"multimedia content filtering ",
+"International mode           ",
+"2 Mb GPRS bundle"
+]
+      },
+      "creationDate": "2014-04-08T00:00:00+02:00",
+      "connectionDate": "2014-04-08T00:00:00+02:00",
+      "msisdnData": {
+        "cc": "33",
+        "sn": "676625992"
+      }
+    },
+    "customerIdentifier": {
+      "type": "SIREN",
+      "identifier": "428706097"
+    }
+},
+  {
+    "customerEnvironmentIdentifier": "50000031",
+    "sim": {
+      "serialNumber": "2413600004272",
+      "puk1": "24100789",
+      "puk2": "08874835",
+      "status": "SUSPENDED",
+      "suspensionReason": "1000",
+      "lastStatusRefreshDate": "2015-01-31T16:24:15+01:00",
+      "lastStatusChangeDate": "2015-01-31T16:24:02+01:00"
+    },
+    "subscription": {
+      "identifier": "34330586",
+      "description": {
+        "value": "IMC pay as you go data",
+        "service": [
+"International mode           ",
+"multimedia content filtering ",
+"orange.m2m.spec APN          "
+]
+      },
+      "creationDate": "2014-04-08T00:00:00+02:00",
+      "connectionDate": "2014-04-08T00:00:00+02:00",
+      "msisdnData": {
+        "cc": "33",
+        "sn": "681056030"
+      }
+    },
+    "customerIdentifier": {
+      "type": "SIREN",
+      "identifier": "428706097"
+    }
+},
+  {
+    "customerEnvironmentIdentifier": "50000031",
+    "sim": {
+      "serialNumber": "2120300465493",
+      "puk1": "57998970",
+      "puk2": "94832454",
+      "status": "ACTIVATED",
+      "lastStatusRefreshDate": "2015-09-30T13:00:59+02:00",
+      "lastStatusChangeDate": "2015-01-31T12:09:57+01:00"
+    },
+    "subscription": {
+      "identifier": "34341365",
+      "description": {
+        "value": "Business M2M 1Go data only",
+        "service": [
+"Business M2M 1Go",
+"APN orange.acte 3G           ",
+"APN orange.m2m.spec 3G+",
+"multimedia content filtering "
+]
+      },
+      "creationDate": "2014-04-29T00:00:00+02:00",
+      "connectionDate": "2014-05-29T00:00:00+02:00",
+      "msisdnData": {
+        "cc": "33",
+        "sn": "607380678"
+      }
+    },
+    "device": {
+      "contact": "",
+      "communicationModule": "",
+      "updateDate": "2015-05-28T16:37:27+02:00"
+    },
+    "machine": {
+      "updateDate": "2015-05-28T16:37:27+02:00"
+    },
+    "customerIdentifier": {
+      "type": "SIREN",
+      "identifier": "428706097"
+    }
+}
+]

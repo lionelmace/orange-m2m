@@ -1,0 +1,32 @@
+<div class="container" ng-controller="DeviceController as controller">
+  <div class="row">
+
+    <h1 class="page-header">Devices</h1>
+
+    <form role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search" ng-model="searchText">
+      </div>
+    </form>
+
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Device ID</th>
+            <th>SIM Status</th>
+            <th>Alert</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="device in controller.data.devices | filter:searchText">
+            <td>{{device.sim.serialNumber}}</td>
+            <td><span class="sim-status-{{device.sim.status}}">{{device.sim.status}}</span></td>
+            <td><i class="fa fa-circle alert-{{device.alert}}"></i></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div>

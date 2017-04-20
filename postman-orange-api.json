@@ -1,0 +1,167 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Orange M2M API",
+		"_postman_id": "6044fbe1-db29-a6e9-aa69-1d091ec0be7d",
+		"description": "Orange M2M Partner API\nhttps://www.orangepartner.com/integrate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Orange M2M API Catalog - searchInCD",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "ORANGE_OPEN_API-f1e1eeca842919725e07d20999676",
+						"password": "]l,WT4iq",
+						"saveHelperData": true,
+						"showPassword": false
+					}
+				},
+				"url": "https://iosw-ba.orange.com/MLM_EXT_IMC/ConnectivityDirectory-1",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic T1JBTkdFX09QRU5fQVBJLWYxZTFlZWNhODQyOTE5NzI1ZTA3ZDIwOTk5Njc2Ol1sLFdUNGlx",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "text/xml;charset=utf-8",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:v1=\"http://webservice.malima.francetelecom.com/v1\" \nxmlns:con=\"http://connectivityDirectory.types.malima.francetelecom.com\" \nxmlns:com=\"http://common.types.malima.francetelecom.com\">\n   <soapenv:Header/>\n   <soapenv:Body>\n      <v1:searchInConnectivityDirectory>\n      </v1:searchInConnectivityDirectory>\n   </soapenv:Body>\n</soapenv:Envelope>"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "80f5296e-c1bd-4132-801d-2675bf2aa4ae",
+					"name": "response",
+					"originalRequest": {
+						"url": "https://iosw-ba.orange.com:443/MLM_EXT_IMC/ConnectivityDirectory-1",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/xml;charset=UTF-8",
+								"name": "Content-Type",
+								"enabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic T1JBTkdFX09QRU5fQVBJLTJmOTBmNjJiYjQ5MGRhNTU5MDBlZDI1NzgyNmZlOighS1k2WjVx",
+								"name": "Authorization",
+								"enabled": true
+							},
+							{
+								"key": "Cache-Control",
+								"name": "Cache-Control",
+								"value": "no-cache"
+							},
+							{
+								"key": "Postman-Token",
+								"name": "Postman-Token",
+								"value": "fb7d813e-c1d4-64a6-d8a7-dd728e968560"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:v1=\"http://webservice.malima.francetelecom.com/v1\" \nxmlns:con=\"http://connectivityDirectory.types.malima.francetelecom.com\" \nxmlns:com=\"http://common.types.malima.francetelecom.com\">\n   <soapenv:Header/>\n   <soapenv:Body>\n      <v1:searchInConnectivityDirectory>\n      </v1:searchInConnectivityDirectory>\n   </soapenv:Body>\n</soapenv:Envelope>"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "xml",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "text/xml; charset=UTF-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Wed, 20 Jan 2016 20:47:32 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apache-Coyote/1.1",
+							"description": "A name for the server"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "X-Backside-Transport",
+							"key": "X-Backside-Transport",
+							"value": "OK OK",
+							"description": "Custom header"
+						},
+						{
+							"name": "X-Client-IP",
+							"key": "X-Client-IP",
+							"value": "10.70.112.156",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 542,
+					"body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Header><t:trackingHeader xmlns:t=\"http://www.francetelecom.com/iosw/v1\" xmlns:date=\"http://exslt.org/dates-and-times\" xmlns:str=\"http://exslt.org/strings\" xmlns:regExp=\"http://exslt.org/regular-expressions\"><t:requestId>f99af483-cdb0-4ca3-b8f1-7b2dd1b0e4d2</t:requestId><t:timestamp>2016-01-20T21:47:32+01:00</t:timestamp></t:trackingHeader></soap:Header><soap:Body><ns2:searchInConnectivityDirectoryResponse xmlns:ns2=\"http://webservice.malima.francetelecom.com/v1\" xmlns:ns3=\"http://connectivityDirectory.types.malima.francetelecom.com\" xmlns:ns4=\"http://exception.malima.francetelecom.com\" xmlns:ns5=\"http://common.types.malima.francetelecom.com\" xmlns:ns6=\"http://simplelineorder.types.malima.francetelecom.com\"><ns3:connectivityDirectory><ns3:customerEnvironmentIdentifier>50000031</ns3:customerEnvironmentIdentifier><ns3:sim><ns5:serialNumber>2310300471761</ns5:serialNumber><ns5:puk1>52392382</ns5:puk1><ns5:puk2>26594397</ns5:puk2><ns5:imei>359757020803430</ns5:imei><ns5:status>ACTIVATED</ns5:status><ns5:lastStatusRefreshDate>2015-01-31T12:09:57+01:00</ns5:lastStatusRefreshDate><ns5:lastStatusChangeDate>2015-01-31T12:09:57+01:00</ns5:lastStatusChangeDate></ns3:sim><ns3:subscription><ns5:identifier>34208489</ns5:identifier><ns5:description><ns5:value>IMC 2 Mb data monthly bundle</ns5:value><ns5:service>Orange.m2m APN</ns5:service><ns5:service>multimedia content filtering </ns5:service><ns5:service>2 Mb GPRS bundle</ns5:service><ns5:service>orange.m2m.spec APN          </ns5:service><ns5:service>International mode           </ns5:service></ns5:description><ns5:creationDate>2013-08-28T00:00:00+02:00</ns5:creationDate><ns5:connectionDate>2013-08-28T00:00:00+02:00</ns5:connectionDate><ns5:msisdnData><ns5:cc>33</ns5:cc><ns5:sn>631972662</ns5:sn></ns5:msisdnData></ns3:subscription><ns3:device><ns5:contact/><ns5:communicationModule/><ns5:deviceHolder>Philippe</ns5:deviceHolder><ns3:updateDate>2016-01-13T16:54:35+01:00</ns3:updateDate></ns3:device><ns3:machine><ns3:updateDate>2016-01-13T16:54:35+01:00</ns3:updateDate></ns3:machine><ns3:customerIdentifier><ns5:type>SIREN</ns5:type><ns5:identifier>428706097</ns5:identifier></ns3:customerIdentifier></ns3:connectivityDirectory><ns3:connectivityDirectory><ns3:customerEnvironmentIdentifier>50000031</ns3:customerEnvironmentIdentifier><ns3:sim><ns5:serialNumber>2310300471779</ns5:serialNumber><ns5:puk1>66820301</ns5:puk1><ns5:puk2>32438474</ns5:puk2><ns5:status>ACTIVATED</ns5:status><ns5:lastStatusRefreshDate>2015-01-31T12:09:57+01:00</ns5:lastStatusRefreshDate><ns5:lastStatusChangeDate>2015-01-31T12:09:57+01:00</ns5:lastStatusChangeDate></ns3:sim><ns3:subscription><ns5:identifier>34208490</ns5:identifier><ns5:description><ns5:value>IMC 5 Mb data monthly bundle</ns5:value><ns5:service>multimedia content filtering </ns5:service><ns5:service>International mode           </ns5:service><ns5:service>5 Mb GPRS bundle</ns5:service><ns5:service>orange.m2m.spec APN          </ns5:service><ns5:service>Orange.m2m APN</ns5:service></ns5:description><ns5:creationDate>2013-08-29T00:00:00+02:00</ns5:creationDate><ns5:connectionDate>2013-09-28T00:00:00+02:00</ns5:connectionDate><ns5:msisdnData><ns5:cc>33</ns5:cc><ns5:sn>607735954</ns5:sn></ns5:msisdnData></ns3:subscription><ns3:customerIdentifier><ns5:type>SIREN</ns5:type><ns5:identifier>428706097</ns5:identifier></ns3:customerIdentifier></ns3:connectivityDirectory><ns3:connectivityDirectory><ns3:customerEnvironmentIdentifier>50000031</ns3:customerEnvironmentIdentifier><ns3:sim><ns5:serialNumber>2320300295664</ns5:serialNumber><ns5:puk1>17923559</ns5:puk1><ns5:puk2>69354513</ns5:puk2><ns5:imei>351879013001120</ns5:imei><ns5:status>ACTIVATED</ns5:status><ns5:lastStatusRefreshDate>2015-01-31T12:09:57+01:00</ns5:lastStatusRefreshDate><ns5:lastStatusChangeDate>2015-01-31T12:09:57+01:00</ns5:lastStatusChangeDate></ns3:sim><ns3:subscription><ns5:identifier>34208685</ns5:identifier><ns5:description><ns5:value>IMC pay as you go voice</ns5:value><ns5:user>B. LEVY / P. DEPRETZ</ns5:user><ns5:userRef>Prêt pour tests SDK à la demande d'OLPS</ns5:userRef><ns5:service>multimedia content filtering </ns5:service><ns5:service>International mode           </ns5:service><ns5:service>Orange.m2m APN</ns5:service><ns5:service>orange.m2m.spec APN          </ns5:service></ns5:description><ns5:creationDate>2013-11-22T00:00:00+01:00</ns5:creationDate><ns5:connectionDate>2013-12-02T00:00:00+01:00</ns5:connectionDate><ns5:msisdnVoice><ns5:cc>33</ns5:cc><ns5:sn>789433025</ns5:sn></ns5:msisdnVoice></ns3:subscription><ns3:device><ns5:uniqueIdentifier>MyPHPdeviceIdentifier2</ns5:uniqueIdentifier><ns5:serialNumber>MyPHPdeviceSerialNumber2</ns5:serialNumber><ns5:contact/><ns5:communicationModule><ns5:brand>PHP TM</ns5:brand><ns5:model>PHP Model</ns5:model></ns5:communicationModule><ns5:deviceLocation>MyPHPdeviceLocation</ns5:deviceLocation><ns5:category>MyPHPdeviceCategory</ns5:category><ns5:description>MyPHPdeviceDescription</ns5:description><ns5:address>MyPHPdeviceAddress</ns5:address><ns3:updateDate>2015-02-15T21:56:55+01:00</ns3:updateDate></ns3:device><ns3:machine><ns5:serialNumber>MyPHPmachineSerialNumber2</ns5:serialNumber><ns5:name>MyPHPmachineName</ns5:name><ns5:description>MyPHPmachineDescription</ns5:description><ns3:updateDate>2015-02-15T21:56:55+01:00</ns3:updateDate></ns3:machine><ns3:customerIdentifier><ns5:type>SIREN</ns5:type><ns5:identifier>428706097</ns5:identifier></ns3:customerIdentifier></ns3:connectivityDirectory><ns3:connectivityDirectory><ns3:customerEnvironmentIdentifier>50000031</ns3:customerEnvironmentIdentifier><ns3:sim><ns5:serialNumber>2413600000023</ns5:serialNumber><ns5:puk1>84645063</ns5:puk1><ns5:puk2>97351459</ns5:puk2><ns5:imei>353816052745124</ns5:imei><ns5:status>ACTIVATED</ns5:status><ns5:lastStatusRefreshDate>2015-11-18T18:08:20+01:00</ns5:lastStatusRefreshDate><ns5:lastStatusChangeDate>2015-01-31T12:09:57+01:00</ns5:lastStatusChangeDate></ns3:sim><ns3:subscription><ns5:identifier>34330274</ns5:identifier><ns5:description><ns5:value>IMC pay as you go data</ns5:value><ns5:service>Orange.m2m APN</ns5:service><ns5:service>orange.m2m.spec APN          </ns5:service><ns5:service>multimedia content filtering </ns5:service><ns5:service>International mode           </ns5:service></ns5:description><ns5:creationDate>2014-03-12T00:00:00+01:00</ns5:creationDate><ns5:connectionDate>2014-03-14T00:00:00+01:00</ns5:connectionDate><ns5:msisdnData><ns5:cc>33</ns5:cc><ns5:sn>680176750</ns5:sn></ns5:msisdnData></ns3:subscription><ns3:device><ns5:uniqueIdentifier>OAB Test IAE AaS </ns5:uniqueIdentifier><ns5:contact><ns5:name>Damien Geranton</ns5:name><ns5:email>damien.geranton@orange.com</ns5:email></ns5:contact><ns5:communicationModule/><ns3:updateDate>2015-05-05T23:39:45+02:00</ns3:updateDate></ns3:device><ns3:machine><ns3:updateDate>2015-05-05T23:39:45+02:00</ns3:updateDate></ns3:machine><ns3:customerIdentifier><ns5:type>SIREN</ns5:type><ns5:identifier>428706097</ns5:identifier></ns3:customerIdentifier></ns3:connectivityDirectory><ns3:connectivityDirectory><ns3:customerEnvironmentIdentifier>50000031</ns3:customerEnvironmentIdentifier><ns3:sim><ns5:serialNumber>2413600004488</ns5:serialNumber><ns5:puk1>68171868</ns5:puk1><ns5:puk2>37390250</ns5:puk2><ns5:imei>352421050777764</ns5:imei><ns5:status>ACTIVATED</ns5:status><ns5:lastStatusRefreshDate>2015-09-16T14:11:12+02:00</ns5:lastStatusRefreshDate><ns5:lastStatusChangeDate>2015-09-16T14:11:12+02:00</ns5:lastStatusChangeDate></ns3:sim><ns3:subscription><ns5:identifier>34330282</ns5:identifier><ns5:description><ns5:value>IMC pay as you go voice</ns5:value><ns5:user/><ns5:userRef/><ns5:service>multimedia content filtering </ns5:service><ns5:service>International mode           </ns5:service><ns5:service>orange.m2m.spec APN          </ns5:service></ns5:description><ns5:creationDate>2014-03-14T00:00:00+01:00</ns5:creationDate><ns5:connectionDate>2014-03-14T00:00:00+01:00</ns5:connectionDate><ns5:msisdnVoice><ns5:cc>33</ns5:cc><ns5:sn>676174050</ns5:sn></ns5:msisdnVoice></ns3:subscription><ns3:device><ns5:contact><ns5:name>Sorin OANCEA</ns5:name><ns5:email>sorin.oancea@orange.com</ns5:email><ns5:phone>0040744448776</ns5:phone></ns5:contact><ns5:communicationModule/><ns5:deviceLocation>Romania</ns5:deviceLocation><ns5:deviceHolder>OLPS Romania</ns5:deviceHolder><ns3:updateDate>2015-09-11T11:08:41+02:00</ns3:updateDate></ns3:device><ns3:machine><ns3:updateDate>2015-09-11T11:08:41+02:00</ns3:updateDate></ns3:machine><ns3:customerIdentifier><ns5:type>SIREN</ns5:type><ns5:identifier>428706097</ns5:identifier></ns3:customerIdentifier></ns3:connectivityDirectory><ns3:connectivityDirectory><ns3:customerEnvironmentIdentifier>50000031</ns3:customerEnvironmentIdentifier><ns3:sim><ns5:serialNumber>2413600004371</ns5:serialNumber><ns5:puk1>11216389</ns5:puk1><ns5:puk2>72296487</ns5:puk2><ns5:status>SUSPENDED</ns5:status><ns5:suspensionReason>1000</ns5:suspensionReason><ns5:lastStatusRefreshDate>2015-01-31T16:24:15+01:00</ns5:lastStatusRefreshDate><ns5:lastStatusChangeDate>2015-01-31T16:24:02+01:00</ns5:lastStatusChangeDate></ns3:sim><ns3:subscription><ns5:identifier>34330577</ns5:identifier><ns5:description><ns5:value>IMC 2 Mb data monthly bundle</ns5:value><ns5:user>VCO (PO STS / MLM)  OLPS M2M</ns5:user><ns5:userRef>VCO (PO STS / MLM)  OLPS M2M</ns5:userRef><ns5:service>orange.m2m.spec APN          </ns5:service><ns5:service>International mode           </ns5:service><ns5:service>2 Mb GPRS bundle</ns5:service><ns5:service>multimedia content filtering </ns5:service></ns5:description><ns5:creationDate>2014-04-08T00:00:00+02:00</ns5:creationDate><ns5:connectionDate>2014-04-08T00:00:00+02:00</ns5:connectionDate><ns5:msisdnData><ns5:cc>33</ns5:cc><ns5:sn>676626007</ns5:sn></ns5:msisdnData></ns3:subscription><ns3:customerIdentifier><ns5:type>SIREN</ns5:type><ns5:identifier>428706097</ns5:identifier></ns3:customerIdentifier></ns3:connectivityDirectory><ns3:connectivityDirectory><ns3:customerEnvironmentIdentifier>50000031</ns3:customerEnvironmentIdentifier><ns3:sim><ns5:serialNumber>2413600004355</ns5:serialNumber><ns5:puk1>54231316</ns5:puk1><ns5:puk2>71359283</ns5:puk2><ns5:status>ACTIVATED</ns5:status><ns5:lastStatusRefreshDate>2015-01-31T12:09:57+01:00</ns5:lastStatusRefreshDate><ns5:lastStatusChangeDate>2015-01-31T12:09:57+01:00</ns5:lastStatusChangeDate></ns3:sim><ns3:subscription><ns5:identifier>34330578</ns5:identifier><ns5:description><ns5:value>IMC 2 Mb data monthly bundle</ns5:value><ns5:user>VCO (PO STS / MLM)  OLPS M2</ns5:user><ns5:userRef>VCO (PO STS / MLM)  OLPS M2</ns5:userRef><ns5:service>multimedia content filtering </ns5:service><ns5:service>2 Mb GPRS bundle</ns5:service><ns5:service>orange.m2m.spec APN          </ns5:service><ns5:service>International mode           </ns5:service></ns5:description><ns5:creationDate>2014-04-08T00:00:00+02:00</ns5:creationDate><ns5:connectionDate>2014-04-08T00:00:00+02:00</ns5:connectionDate><ns5:msisdnData><ns5:cc>33</ns5:cc><ns5:sn>676625968</ns5:sn></ns5:msisdnData></ns3:subscription><ns3:customerIdentifier><ns5:type>SIREN</ns5:type><ns5:identifier>428706097</ns5:identifier></ns3:customerIdentifier></ns3:connectivityDirectory><ns3:connectivityDirectory><ns3:customerEnvironmentIdentifier>50000031</ns3:customerEnvironmentIdentifier><ns3:sim><ns5:serialNumber>2413600004348</ns5:serialNumber><ns5:puk1>38512325</ns5:puk1><ns5:puk2>62273796</ns5:puk2><ns5:status>ACTIVATED</ns5:status><ns5:lastStatusRefreshDate>2015-01-31T12:09:57+01:00</ns5:lastStatusRefreshDate><ns5:lastStatusChangeDate>2015-01-31T12:09:57+01:00</ns5:lastStatusChangeDate></ns3:sim><ns3:subscription><ns5:identifier>34330579</ns5:identifier><ns5:description><ns5:value>IMC 2 Mb data monthly bundle</ns5:value><ns5:user>VCO (PO STS / MLM)  OLPS M2</ns5:user><ns5:userRef>VCO (PO STS / MLM)  OLPS M2</ns5:userRef><ns5:service>orange.m2m.spec APN          </ns5:service><ns5:service>multimedia content filtering </ns5:service><ns5:service>International mode           </ns5:service><ns5:service>2 Mb GPRS bundle</ns5:service></ns5:description><ns5:creationDate>2014-04-08T00:00:00+02:00</ns5:creationDate><ns5:connectionDate>2014-04-08T00:00:00+02:00</ns5:connectionDate><ns5:msisdnData><ns5:cc>33</ns5:cc><ns5:sn>676625992</ns5:sn></ns5:msisdnData></ns3:subscription><ns3:customerIdentifier><ns5:type>SIREN</ns5:type><ns5:identifier>428706097</ns5:identifier></ns3:customerIdentifier></ns3:connectivityDirectory><ns3:connectivityDirectory><ns3:customerEnvironmentIdentifier>50000031</ns3:customerEnvironmentIdentifier><ns3:sim><ns5:serialNumber>2413600004272</ns5:serialNumber><ns5:puk1>24100789</ns5:puk1><ns5:puk2>08874835</ns5:puk2><ns5:status>SUSPENDED</ns5:status><ns5:suspensionReason>1000</ns5:suspensionReason><ns5:lastStatusRefreshDate>2015-01-31T16:24:15+01:00</ns5:lastStatusRefreshDate><ns5:lastStatusChangeDate>2015-01-31T16:24:02+01:00</ns5:lastStatusChangeDate></ns3:sim><ns3:subscription><ns5:identifier>34330586</ns5:identifier><ns5:description><ns5:value>IMC pay as you go data</ns5:value><ns5:service>International mode           </ns5:service><ns5:service>multimedia content filtering </ns5:service><ns5:service>orange.m2m.spec APN          </ns5:service></ns5:description><ns5:creationDate>2014-04-08T00:00:00+02:00</ns5:creationDate><ns5:connectionDate>2014-04-08T00:00:00+02:00</ns5:connectionDate><ns5:msisdnData><ns5:cc>33</ns5:cc><ns5:sn>681056030</ns5:sn></ns5:msisdnData></ns3:subscription><ns3:customerIdentifier><ns5:type>SIREN</ns5:type><ns5:identifier>428706097</ns5:identifier></ns3:customerIdentifier></ns3:connectivityDirectory><ns3:connectivityDirectory><ns3:customerEnvironmentIdentifier>50000031</ns3:customerEnvironmentIdentifier><ns3:sim><ns5:serialNumber>2120300465493</ns5:serialNumber><ns5:puk1>57998970</ns5:puk1><ns5:puk2>94832454</ns5:puk2><ns5:status>ACTIVATED</ns5:status><ns5:lastStatusRefreshDate>2015-09-30T13:00:59+02:00</ns5:lastStatusRefreshDate><ns5:lastStatusChangeDate>2015-01-31T12:09:57+01:00</ns5:lastStatusChangeDate></ns3:sim><ns3:subscription><ns5:identifier>34341365</ns5:identifier><ns5:description><ns5:value>Business M2M 1Go data only</ns5:value><ns5:service>Business M2M 1Go</ns5:service><ns5:service>APN orange.acte 3G           </ns5:service><ns5:service>APN orange.m2m.spec 3G+</ns5:service><ns5:service>multimedia content filtering </ns5:service></ns5:description><ns5:creationDate>2014-04-29T00:00:00+02:00</ns5:creationDate><ns5:connectionDate>2014-05-29T00:00:00+02:00</ns5:connectionDate><ns5:msisdnData><ns5:cc>33</ns5:cc><ns5:sn>607380678</ns5:sn></ns5:msisdnData></ns3:subscription><ns3:device><ns5:contact/><ns5:communicationModule/><ns3:updateDate>2015-05-28T16:37:27+02:00</ns3:updateDate></ns3:device><ns3:machine><ns3:updateDate>2015-05-28T16:37:27+02:00</ns3:updateDate></ns3:machine><ns3:customerIdentifier><ns5:type>SIREN</ns5:type><ns5:identifier>428706097</ns5:identifier></ns3:customerIdentifier></ns3:connectivityDirectory><ns3:resultsNumberExceeded>false</ns3:resultsNumberExceeded><ns3:totalResultsNumber>10</ns3:totalResultsNumber></ns2:searchInConnectivityDirectoryResponse></soap:Body></soap:Envelope>"
+				}
+			]
+		},
+		{
+			"name": "Orange M2M API Catalog - ConnectivityDirectory",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "ORANGE_OPEN_API-f1e1eeca842919725e07d20999676",
+						"password": "]l,WT4iq",
+						"saveHelperData": true,
+						"showPassword": false
+					}
+				},
+				"url": "https://iosw-ba.orange.com/MLM_EXT_IMC/ConnectivityDirectory-1",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml;charset=UTF-8",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic T1JBTkdFX09QRU5fQVBJLTJmOTBmNjJiYjQ5MGRhNTU5MDBlZDI1NzgyNmZlOighS1k2WjVx",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:v1=\"http://webservice.malima.francetelecom.com/v1\" \nxmlns:con=\"http://connectivityDirectory.types.malima.francetelecom.com\" \nxmlns:com=\"http://common.types.malima.francetelecom.com\">\n    <soapenv:Header/>\n    <soapenv:Body>\n        <v1:getConnectivityDirectory>\n            <con:lineIdentifiers>\n                <com:simSerialNumber>2320300294956</com:simSerialNumber>\n            </con:lineIdentifiers>\n        </v1:getConnectivityDirectory>\n    </soapenv:Body>\n</soapenv:Envelope>"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
