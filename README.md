@@ -1,5 +1,4 @@
 
-# Introduction
 This sample demonstrates how to consume the Orange M2M API from a Node.js application.
 
 ![](./images/orange-sample-screenshot.png)
@@ -114,5 +113,5 @@ To test it, uncomment this line
   ```
 and comment this line:
   ```js
-  $http.get("/m2m/devices").success(function (data) {
+  //$http.get("/m2m/devices").success(function (data) {
   ```
