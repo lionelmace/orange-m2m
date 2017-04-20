@@ -104,3 +104,15 @@ This sample contains additional API resources to retrieve SIM details in JSON fo
 # Test your API outside Bluemix
 This project comes with a Postmam json file ready to test Orange API.
 Make sure to update your username and password first.
+
+# Test the UI without any access to Orange M2M API
+This project contains a sample of SIM that would be return by the API.
+This sample is available in the folder ```/public/api/devices.json```.
+To test it, uncomment this line
+  ```js
+  $http.get("/api/devices.json").success(function (data) {
+  ```
+and comment this line:
+  ```js
+  $http.get("/m2m/devices").success(function (data) {
+  ```
